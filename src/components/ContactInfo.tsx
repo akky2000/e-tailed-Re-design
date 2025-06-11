@@ -17,7 +17,7 @@ const ContactInfo = () => {
       icon: Phone,
       title: "Call Us",
       details: "+91 95231 81953",
-      subDetails: "+91 95231 81953",
+      subDetails: "+91 94701 87923",
       color: "text-green-600 bg-green-100",
       hoverColor: "hover:bg-green-50 hover:border-green-300"
     },
