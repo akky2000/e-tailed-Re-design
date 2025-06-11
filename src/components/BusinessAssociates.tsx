@@ -101,7 +101,7 @@ const BusinessAssociates = () => {
         {/* Enhanced CTA */}
         <div className="text-center">
           <Link to="/business-associate">
-            <Button className="group bg-gradient-to-r from-orange-500 to-blue-600 hover:from-orange-600 hover:to-blue-700 text-white px-4 py-3 rounded-xl font-bold text-lg transition-all duration-300 hover:scale-105 shadow-xl hover:shadow-2xl">
+            <Button className="group bg-gradient-to-r from-orange-500 to-blue-600 hover:from-orange-600 hover:to-blue-700 text-white px-2 py-3 rounded-xl font-bold text-lg transition-all duration-300 hover:scale-105 shadow-xl hover:shadow-2xl">
               <span className="relative z-10">BECOME A BUSINESS ASSOCIATE</span>
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform relative z-10" />
             </Button>
