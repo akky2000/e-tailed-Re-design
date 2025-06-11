@@ -43,10 +43,9 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Enhanced Call to Action Cards */}
-        <div className="grid md:grid-cols-2 gap-6 mb-16">
-          {/* Immediate Help Card */}
-          <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl p-8 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105">
+        
+        {/* <div className="grid md:grid-cols-2 gap-6 mb-16"> 
+        <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl p-8 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mr-4">
                 <Phone className="w-6 h-6 text-white" />
@@ -64,7 +63,7 @@ const Contact = () => {
             </a>
           </div>
 
-          {/* Schedule Meeting Card */}
+          
           <div className="bg-gradient-to-br from-orange-500 to-red-500 rounded-3xl p-8 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mr-4">
@@ -76,6 +75,30 @@ const Contact = () => {
               Book a free consultation with our business experts
             </p>
             <button className="inline-flex items-center justify-center w-full bg-white text-orange-600 font-semibold py-3 px-6 rounded-xl hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-lg">
+              📅 Schedule Meeting
+            </button>
+          </div>
+       
+        </div> */}
+
+
+          {/* Call to Action Card */}
+        <div className="bg-gradient-to-r from-blue-600 to-orange-500 rounded-3xl p-8 lg:p-12 text-white text-center shadow-2xl">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+            Need Immediate Help?
+          </h3>
+          <p className="text-blue-100 mb-6 text-lg max-w-2xl mx-auto">
+            Call us now for urgent consultations or schedule a meeting with our experts
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="tel:+919523181953" 
+              className="inline-flex items-center justify-center bg-white text-blue-600 font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-lg"
+            >
+              📞 Call Now: +91 95231 81953
+            </a>
+            <button className="inline-flex items-center justify-center border-2 border-white text-white font-semibold py-4 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition-all duration-300 hover:scale-105">
               📅 Schedule Meeting
             </button>
           </div>

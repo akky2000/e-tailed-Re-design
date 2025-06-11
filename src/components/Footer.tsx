@@ -81,7 +81,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Call Us</p>
-                  <span className="text-gray-300">+91 98765 43210</span>
+                  <span className="text-gray-300">+91 95231 81953</span>
                 </div>
               </div>
               
@@ -91,7 +91,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Visit Us</p>
-                  <span className="text-gray-300">Mumbai, Maharashtra</span>
+                  <span className="text-gray-300">Hyderabad, Telangana</span>
                 </div>
               </div>
             </div>

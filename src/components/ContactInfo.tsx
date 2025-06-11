@@ -16,8 +16,8 @@ const ContactInfo = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+91 98765 43210",
-      subDetails: "+91 87654 32109",
+      details: "+91 95231 81953",
+      subDetails: "+91 95231 81953",
       color: "text-green-600 bg-green-100",
       hoverColor: "hover:bg-green-50 hover:border-green-300"
     },
@@ -25,7 +25,7 @@ const ContactInfo = () => {
       icon: MapPin,
       title: "Visit Us",
       details: "123 Business Park",
-      subDetails: "Mumbai, Maharashtra 400001",
+      subDetails: "Hyderabad, Telangana",
       color: "text-orange-600 bg-orange-100",
       hoverColor: "hover:bg-orange-50 hover:border-orange-300"
     }

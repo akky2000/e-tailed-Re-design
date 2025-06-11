@@ -29,6 +29,7 @@ const TrustedCompanies = () => {
       color: 'text-blue-500'
     },
     { 
+      
       name: 'Adobe', 
       logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.svg',
       color: 'text-red-500'
@@ -79,3 +80,6 @@ const TrustedCompanies = () => {
 };
 
 export default TrustedCompanies;
+
+
+

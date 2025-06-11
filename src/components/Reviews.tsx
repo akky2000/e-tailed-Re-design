@@ -5,7 +5,7 @@ import { Star, Quote } from 'lucide-react';
 const Reviews = () => {
   const reviews = [
     {
-      name: "Rajesh Kumar",
+      name: "Akash Kashyap",
       role: "E-commerce Store Owner",
       rating: 5,
       comment: "E-tailed India transformed my business completely. Their digital solutions increased my revenue by 300% in just 6 months!",
